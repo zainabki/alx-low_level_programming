@@ -1,6 +1,5 @@
 #include <stdlib.h>
 #include "dog.h"
-
 /**
  * _strlen - returns the length of a string
  * @s: string to evaluate
@@ -20,7 +19,6 @@ int _strlen(char *s)
 
 	return (i);
 }
-
 /**
  * *_strcpy - copies the string pointed to by src
  * including the terminating null byte (\0)
@@ -49,7 +47,6 @@ char *_strcpy(char *dest, char *src)
 
 	return (dest);
 }
-
 /**
  * new_dog - creates a new dog
  * @name: name of the dog
